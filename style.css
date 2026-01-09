@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #0b0f1a;
+    color: #eaeaf0;
+    line-height: 1.6;
+}
+
+/* Containers */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: rgba(11, 15, 26, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.navbar a {
+    color: #eaeaf0;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #4da3ff;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+}
+
+.hero-content h3 {
+    color: #4da3ff;
+    margin: 1rem 0;
+}
+
+.cta {
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.primary {
+    background: #4da3ff;
+    color: #0b0f1a;
+}
+
+.secondary {
+    border: 1px solid #4da3ff;
+    color: #4da3ff;
+}
+
+/* Sections */
+.section {
+    padding: 5rem 0;
+}
+
+.dark {
+    background: #0f1629;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.skill-card {
+    background: #131a33;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Projects */
+.project-card {
+    background: #131a33;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+}
+
+.project-card.highlight {
+    border-left: 4px solid #4da3ff;
+}
+
+.tech {
+    display: block;
+    margin-top: 1rem;
+    color: #4da3ff;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0b0f1a;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 1.2s ease forwards;
+}
+
+.slide-in {
+    animation: slideIn 1.2s ease forwards;
+}
+
+.delay {
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
