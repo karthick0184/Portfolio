@@ -1,147 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Karthick Prasanna P | ML & AI Portfolio</title>
-    <meta name="description" content="Portfolio of Karthick Prasanna P — Data Science, Machine Learning, and Computer Vision Engineer." />
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Karthick Prasanna P | Data Science Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
-<header class="navbar">
-    <div class="container nav-flex">
-        <h1 class="logo">KP</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#research">Research</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </div>
+<header class="top-header">
+
+<div class="header-inner">
+
+<div class="profile-box">
+
+<img src="profile.jpeg" alt="Karthick Prasanna">
+
+<div>
+<h1>Karthick Prasanna P</h1>
+<p>Data Science Student | AI • Machine Learning • Computer Vision</p>
+</div>
+
+</div>
+
+<div class="header-links">
+
+<a href="mailto:karthick0184@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+<a href="https://linkedin.com/in/karthick-prasanna-25b8a431b" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+<a href="resume.pdf" target="_blank" class="resume-btn">
+<i class="fa-solid fa-download"></i> Resume
+</a>
+
+</div>
+
+</div>
+
 </header>
 
-<!-- ================= HERO ================= -->
-<section class="hero">
-    <div class="container hero-content">
-        <h2 class="fade-in">Karthick Prasanna P</h2>
-        <h3 class="slide-in">Data Scientist · Machine Learning · Computer Vision</h3>
-        <p class="fade-in delay">
-            Building applied ML systems with focus on real-world deployment, computer vision, and data-driven decision making.
-        </p>
-        <div class="cta">
-            <a href="#contact" class="btn primary">Contact</a>
-            <a href="https://www.linkedin.com/in/karthick-prasanna" target="_blank" class="btn secondary">LinkedIn</a>
-        </div>
-    </div>
-</section>
 
-<!-- ================= ABOUT ================= -->
-<section id="about" class="section">
-    <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <p>
-            I am a Data Science and Machine Learning practitioner with strong foundations in Python, SQL, and applied ML.
-            My work spans recommendation systems, computer vision pipelines, and simulation-based research.
-            I enjoy solving real-world problems using structured data, deep learning, and analytical reasoning.
-        </p>
-    </div>
-</section>
+<main class="container">
 
-<!-- ================= SKILLS ================= -->
-<section id="skills" class="section dark">
-    <div class="container">
-        <h2 class="section-title">Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">Python</div>
-            <div class="skill-card">SQL</div>
-            <div class="skill-card">Machine Learning</div>
-            <div class="skill-card">Scikit-learn</div>
-            <div class="skill-card">Pandas & NumPy</div>
-            <div class="skill-card">Data Visualization</div>
-            <div class="skill-card">Computer Vision</div>
-            <div class="skill-card">YOLOv8</div>
-            <div class="skill-card">ByteTrack</div>
-            <div class="skill-card">DeepSORT</div>
-            <div class="skill-card">OpenCV</div>
-            <div class="skill-card">Business Analytics</div>
-        </div>
-    </div>
-</section>
-
-<!-- ================= PROJECTS ================= -->
-<section id="projects" class="section">
-    <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-
-        <div class="project-card highlight">
-            <h3>Dual-Path YOLO-Based Pedestrian Tracking</h3>
-            <p class="project-desc">
-                A computer vision system for real-time pedestrian detection and tracking in crowded and occluded environments.
-            </p>
-            <ul>
-                <li>YOLOv8 used for high-precision pedestrian detection</li>
-                <li>Parallel tracking with ByteTrack and DeepSORT</li>
-                <li>Fusion logic to reduce ID switches and improve tracking stability</li>
-                <li>Focused on detection–tracking integration challenges</li>
-            </ul>
-            <span class="tech">Python · OpenCV · YOLOv8 · ByteTrack · DeepSORT</span>
-        </div>
-
-        <div class="project-card">
-            <h3>Book Recommendation System</h3>
-            <p class="project-desc">
-                Personalized recommendation engine combining collaborative filtering and content-based approaches.
-            </p>
-            <ul>
-                <li>User preference modeling</li>
-                <li>Feature engineering and ML model training</li>
-                <li>Improved relevance of recommendations</li>
-            </ul>
-            <span class="tech">Python · Pandas · NumPy · Scikit-learn</span>
-        </div>
-
-    </div>
-</section>
-
-<!-- ================= RESEARCH ================= -->
-<section id="research" class="section dark">
-    <div class="container">
-        <h2 class="section-title">Research</h2>
-        <h3>The Butterfly Effect of the Titanic</h3>
-        <p>
-            Ongoing research project exploring counterfactual survival outcomes of Titanic passengers.
-            The study applies causal reasoning, Monte Carlo simulations, and agent-based modeling to understand
-            how small decision changes could influence survival probabilities.
-        </p>
-    </div>
-</section>
-
-<!-- ================= EDUCATION ================= -->
 <section class="section">
-    <div class="container">
-        <h2 class="section-title">Education</h2>
-        <p><strong>Integrated M.Sc Data Science</strong> — Amrita Vishwa Vidyapeetham (2022–2027)</p>
-        <p>CGPA: 7.29 / 10</p>
-        <p>Higher Secondary (ISC): 83.2% | Secondary Education (ICSE): 81.7%</p>
-    </div>
+
+<h2>Profile</h2>
+
+<p>
+
+Data Science student passionate about Artificial Intelligence,
+Machine Learning, and Data Analytics. Experienced in building
+intelligent systems including recommendation systems, computer
+vision models, and financial risk prediction systems.
+
+Skilled in Python, SQL, PyTorch, and Scikit-learn with strong
+interest in explainable AI and intelligent automation. Passionate
+about developing AI-driven solutions that transform data into
+insights and support data-driven decision making.
+
+</p>
+
 </section>
 
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="section dark">
-    <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <p>Email: <a href="mailto:karthick0184@gmail.com">karthick0184@gmail.com</a></p>
-        <p>Phone: +91 9345389353</p>
-    </div>
+
+<section class="section">
+
+<h2>Education</h2>
+
+<div class="edu-row">
+
+<h3>Integrated MSc Data Science</h3>
+
+<span>Amrita Vishwa Vidyapeetham</span>
+
+<span>2022 – 2027 | CGPA: 7.29 / 10</span>
+
+</div>
+
+<br>
+
+<div class="edu-row">
+
+<h3>Higher Secondary (ISC)</h3>
+
+<span>2020 – 2022 | Marks: 83.2%</span>
+
+</div>
+
+<br>
+
+<div class="edu-row">
+
+<h3>Secondary Education (ICSE)</h3>
+
+<span>2019 – 2020 | Marks: 81.7%</span>
+
+</div>
+
 </section>
 
-<footer class="footer">
-    <p>© 2026 Karthick Prasanna P</p>
+
+<section class="section">
+
+<h2>Projects & Research</h2>
+
+<div class="grid">
+
+
+<div class="card">
+
+<h3>Pedestrian Detection and Multi-Object Tracking</h3>
+
+<span>Computer Vision Project</span>
+
+<p>
+
+Developed a real-time pedestrian tracking system integrating
+YOLOv8 detection with ByteTrack and DeepSORT tracking.
+
+</p>
+
+<p>
+
+Maintained consistent identities across frames using motion
+and appearance features and generated outputs including
+bounding boxes, frame indices and track IDs.
+
+</p>
+
+<p class="tech">Python, YOLOv8, ByteTrack, DeepSORT, OpenCV</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Joint ABSA with Contrastive Learning</h3>
+
+<span>NLP Research Project</span>
+
+<p>
+
+Designed a unified Aspect-Based Sentiment Analysis framework
+performing Aspect Term Extraction and Aspect Sentiment
+Classification.
+
+</p>
+
+<p>
+
+Applied contrastive learning and domain adaptation techniques
+to improve cross-domain sentiment analysis performance.
+
+</p>
+
+<p class="tech">Python, NLP, Transformer Models</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>CREDiX – AI Credit Risk Assessment System</h3>
+
+<span>Machine Learning Project</span>
+
+<p>
+
+Developed a credit risk prediction model using the German
+Credit dataset and compared Deep Neural Networks with
+TabNet architectures.
+
+</p>
+
+<p>
+
+Integrated SHAP explainable AI and deployed a Streamlit
+application for real-time loan risk scoring.
+
+</p>
+
+<p class="tech">Python, Deep Learning, SHAP, Streamlit</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Autonomous AI Research Paper Monitoring Agent</h3>
+
+<span>AI Automation Project</span>
+
+<p>
+
+Developed an autonomous agent that monitors new research
+papers from arXiv and automatically delivers updates.
+
+</p>
+
+<p>
+
+Integrated LLM-based summarization and built a Telegram bot
+interface for automated research alerts.
+
+</p>
+
+<p class="tech">Python, LLM APIs, Telegram Bot, SQLite</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Book Recommendation System</h3>
+
+<span>Machine Learning Project</span>
+
+<p>
+
+Built a personalized book recommendation system using
+collaborative filtering and content-based recommendation
+techniques.
+
+</p>
+
+<p>
+
+Analyzed user preferences and reading patterns to generate
+dynamic recommendations.
+
+</p>
+
+<p class="tech">Python, Pandas, NumPy, Scikit-learn</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<span>Python</span>
+<span>SQL</span>
+<span>PyTorch</span>
+<span>Scikit-learn</span>
+<span>Pandas</span>
+<span>NumPy</span>
+<span>SHAP</span>
+<span>YOLOv8</span>
+<span>DeepSORT</span>
+<span>ByteTrack</span>
+<span>OpenCV</span>
+<span>Machine Learning</span>
+<span>Deep Learning</span>
+<span>Explainable AI</span>
+<span>Computer Vision</span>
+<span>Streamlit</span>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>Research Interests</h2>
+
+<p>
+
+Artificial Intelligence, Data Science, Computer Vision,
+Multi-Object Tracking, Financial Risk Analytics,
+Recommendation Systems, and Explainable AI.
+
+</p>
+
+</section>
+
+
+<section class="section">
+
+<h2>Certifications</h2>
+
+<div class="card small">
+
+<h3>Operations Analytics</h3>
+
+<span>Coursera</span>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>Contact</h2>
+
+<p><i class="fa-solid fa-envelope"></i> karthick0184@gmail.com</p>
+
+<p><i class="fa-solid fa-location-dot"></i> Tamil Nadu, India</p>
+
+<p><i class="fa-brands fa-linkedin"></i>
+linkedin.com/in/karthick-prasanna-25b8a431b</p>
+
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+
+© 2026 Karthick Prasanna P
+
 </footer>
 
 </body>
